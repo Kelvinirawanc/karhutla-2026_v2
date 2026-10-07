@@ -1,13 +1,40 @@
 {
   "metadata": {
-    "last_updated": "2026-10-07T04:46:01.294250+00:00",
-    "last_updated_display": "07 October 2026, 04:46 WIB",
+    "last_updated": "2026-10-07T14:31:19+00:00",
+    "last_updated_display": "07 October 2026, 14:31 WIB",
     "report_title": "Karhutla Indonesia 2026 — Situasi & Penanganan",
     "scope": "Six priority provinces",
-    "discovery_mode": "keywords + sitemap + internal links + site-restricted search",
-    "relevance_threshold": 18,
-    "fallback_policy": "If the best keyword-discovered candidate does not meet the relevance threshold, use the configured fixed reference URL.",
-    "author": "Kelvin Irawan"
+    "discovery_mode": "adaptive keywords + robots/sitemap + homepage/internal links + site-restricted search + relevance/recency validation",
+    "relevance_threshold": 18.0,
+    "max_source_age_days": 45,
+    "latest_discovered_source_date": "2026-10-15",
+    "fallback_policy": "Safety references are secondary only. Missing metric values are carried forward from the previous JSON and explicitly marked as such.",
+    "author": "Kelvin Irawan",
+    "data_quality": {
+      "fresh_fields": [
+        "handled_area_ground_ha",
+        "handled_area_air_ha",
+        "uncontrolled_area_ha",
+        "total_burned_area_situation_ha"
+      ],
+      "carried_forward_fields": [
+        "total_hotspots",
+        "fire_spots",
+        "burned_area_24h_ha",
+        "handled_area_today_ha",
+        "personnel",
+        "air_units",
+        "affected_regencies_cities"
+      ],
+      "missing_fields": [],
+      "metric_extraction_mode": "adaptive_patterns"
+    },
+    "source_dates": {
+      "bnpb": "2026-09-30",
+      "bmkg": "2026-10-15",
+      "kemenhut": null,
+      "gis_bnpb": null
+    }
   },
   "current": {
     "total_hotspots": 2310,
@@ -72,83 +99,10 @@
       "burned_area_snapshot_ha": 383.07
     }
   ],
-  "province_air_quality": [
-    {
-      "province": "Riau",
-      "air_quality": "Moderate–Unhealthy",
-      "visibility_km": "4 km"
-    },
-    {
-      "province": "Jambi",
-      "air_quality": "Good–Unhealthy",
-      "visibility_km": "2.5 km"
-    },
-    {
-      "province": "Sumatera Selatan",
-      "air_quality": "Good–Moderate",
-      "visibility_km": "≤ 6–8 km"
-    },
-    {
-      "province": "Kalimantan Barat",
-      "air_quality": "Moderate–Unhealthy",
-      "visibility_km": "0.6–10 km"
-    },
-    {
-      "province": "Kalimantan Tengah",
-      "air_quality": "Good–Hazardous",
-      "visibility_km": "2.5 km"
-    },
-    {
-      "province": "Kalimantan Selatan",
-      "air_quality": "Unhealthy–Hazardous",
-      "visibility_km": "< 7 km"
-    }
-  ],
   "hotspot_window_latest": {
-    "period": "10–21 September 2026",
-    "high_confidence": [
-      {
-        "province": "Kalimantan Tengah",
-        "hotspots": 5283
-      },
-      {
-        "province": "Sumatera Selatan",
-        "hotspots": 1485
-      },
-      {
-        "province": "Kalimantan Barat",
-        "hotspots": 1357
-      },
-      {
-        "province": "Kalimantan Selatan",
-        "hotspots": 498
-      },
-      {
-        "province": "Kalimantan Timur",
-        "hotspots": 433
-      }
-    ]
-  },
-  "hotspot_window": {
-    "period": "7–16 September 2026",
-    "high_confidence": [
-      {
-        "province": "Kalimantan Tengah",
-        "hotspots": 3177
-      },
-      {
-        "province": "Sumatera Selatan",
-        "hotspots": 1305
-      },
-      {
-        "province": "Kalimantan Barat",
-        "hotspots": 1088
-      },
-      {
-        "province": "Papua Selatan",
-        "hotspots": 960
-      }
-    ]
+    "as_of_source_date": "2026-10-15",
+    "high_confidence": [],
+    "source_method": "adaptive province-context extraction"
   },
   "personnel_composition": [
     {
@@ -196,146 +150,85 @@
       "count": 20
     }
   ],
-  "operations_today": [
-    {
-      "operation": "Patroli",
-      "sorties": 9
-    },
-    {
-      "operation": "Water Bombing",
-      "sorties": 21
-    },
-    {
-      "operation": "OMC",
-      "sorties": 8
-    }
-  ],
-  "province_snapshot_date": "9 August 2026",
-  "province_snapshot_source_note": "Uniform province comparison from BNPB reporting through 9 August 2026.",
   "sources": [
     {
-      "title": "BNPB — Dashboard Karhutla 2026",
-      "description": "Keyword candidate did not meet the relevance threshold; fixed reference used.",
-      "date": null,
-      "url": "https://gis.bnpb.go.id/karhutla2026/",
-      "reference_type": "fixed_reference",
-      "relevance_score": 20,
-      "validation_threshold": 18,
+      "source_key": "bnpb",
+      "title": "BNPB",
+      "url": "https://bnpb.go.id/berita/perkembangan-situasi-terkini-penanganan-karhutla-di-6-provinsi-prioritas",
+      "published_at": "2026-09-30",
+      "reference_type": "safety_reference_fallback",
+      "relevance_score": 53.5,
+      "validation_threshold": 18.0,
       "validation_passed": false,
       "keyword_hits": [
         "karhutla",
-        "hotspot",
-        "personel gabungan"
-      ],
-      "pages_checked": 0,
-      "fetch_status": "OK"
-    },
-    {
-      "title": "BNPB — Situasi Terkini 6 Provinsi Prioritas",
-      "description": "Keyword candidate did not meet the relevance threshold; fixed reference used.",
-      "date": null,
-      "url": "https://bnpb.go.id/index.php/berita/perkembangan-situasi-terkini-penanganan-karhutla-di-6-provinsi-prioritas",
-      "reference_type": "fixed_reference",
-      "relevance_score": 19,
-      "validation_threshold": 18,
-      "validation_passed": false,
-      "keyword_hits": [
-        "karhutla",
-        "6 provinsi prioritas"
-      ],
-      "pages_checked": 36,
-      "fetch_status": "UNAVAILABLE"
-    },
-    {
-      "title": "BNPB — Cumulative Province Snapshot",
-      "description": "Keyword candidate did not meet the relevance threshold; fixed reference used.",
-      "date": null,
-      "url": "https://www.bnpb.go.id/berita/kepala-bnpb-hadiri-rakor-penanganan-karhutla-pemerintah-perkuat-operasi-darat-hadapi-puncak-risiko-agustusseptember",
-      "reference_type": "fixed_reference",
-      "relevance_score": 32,
-      "validation_threshold": 18,
-      "validation_passed": false,
-      "keyword_hits": [
-        "karhutla",
-        "48.889,69",
-        "28.680,47",
-        "15.551,76",
-        "3.069,52",
-        "664,87",
-        "540",
-        "383,07",
-        "9 agustus 2026"
-      ],
-      "pages_checked": 36,
-      "fetch_status": "OK"
-    },
-    {
-      "title": "BMKG — Karhutla & Hotspot Monitoring",
-      "description": "Keyword-discovered reference validated by relevance score.",
-      "date": null,
-      "url": "https://www.bmkg.go.id/cuaca/karhutla",
-      "reference_type": "keyword_match",
-      "relevance_score": 27,
-      "validation_threshold": 18,
-      "validation_passed": true,
-      "keyword_hits": [
-        "karhutla",
-        "hotspot",
-        "kebakaran hutan dan lahan"
-      ],
-      "pages_checked": 35,
-      "fetch_status": "OK"
-    },
-    {
-      "title": "BMKG — El Niño & Karhutla Risk",
-      "description": "Keyword-discovered reference validated by relevance score.",
-      "date": null,
-      "url": "https://www.bmkg.go.id/cuaca/karhutla",
-      "reference_type": "keyword_match",
-      "relevance_score": 20,
-      "validation_threshold": 18,
-      "validation_passed": true,
-      "keyword_hits": [
-        "el niño",
-        "karhutla",
-        "hotspot"
-      ],
-      "pages_checked": 35,
-      "fetch_status": "OK"
-    },
-    {
-      "title": "BNPB — Kalimantan Tengah Evaluation",
-      "description": "Keyword candidate did not meet the relevance threshold; fixed reference used.",
-      "date": null,
-      "url": "https://bnpb.go.id/index.php/berita/evaluasi-penanganan-karhutla-kalimantan-tengah-bnpb-perkuat-pemadaman-darat",
-      "reference_type": "fixed_reference",
-      "relevance_score": 19,
-      "validation_threshold": 18,
-      "validation_passed": false,
-      "keyword_hits": [
-        "kalimantan tengah",
-        "karhutla"
-      ],
-      "pages_checked": 36,
-      "fetch_status": "UNAVAILABLE"
-    },
-    {
-      "title": "BMKG — OMC Kalimantan Barat",
-      "description": "Keyword-discovered reference validated by relevance score.",
-      "date": null,
-      "url": "https://www.bmkg.go.id/cuaca/modifikasi-cuaca",
-      "reference_type": "keyword_match",
-      "relevance_score": 22,
-      "validation_threshold": 18,
-      "validation_passed": true,
-      "keyword_hits": [
-        "kalimantan barat",
-        "karhutla",
+        "kebakaran hutan dan lahan",
+        "luas lahan terbakar",
+        "pemadaman",
+        "pendinginan",
+        "water bombing",
+        "operasi darat",
+        "operasi udara",
+        "operasi modifikasi cuaca",
         "omc",
-        "operasi modifikasi cuaca"
+        "kabut asap",
+        "enam provinsi prioritas"
       ],
-      "pages_checked": 35,
+      "pages_checked": 80,
+      "pages_ranked": 61,
+      "discovery_method": "safety reference fallback",
       "fetch_status": "OK"
+    },
+    {
+      "source_key": "bmkg",
+      "title": "BMKG",
+      "url": "https://www.bmkg.go.id/berita/utama",
+      "published_at": "2026-10-15",
+      "reference_type": "keyword_discovered",
+      "relevance_score": 39.5,
+      "validation_threshold": 18.0,
+      "validation_passed": true,
+      "keyword_hits": [
+        "karhutla",
+        "kebakaran hutan dan lahan",
+        "operasi modifikasi cuaca",
+        "omc",
+        "kabut asap"
+      ],
+      "pages_checked": 22,
+      "pages_ranked": 56,
+      "discovery_method": "robots/sitemap + homepage/internal links + site-restricted search + relevance/recency ranking",
+      "fetch_status": "OK"
+    },
+    {
+      "source_key": "kemenhut",
+      "title": "Kementerian Kehutanan",
+      "url": null,
+      "published_at": null,
+      "reference_type": "unavailable",
+      "relevance_score": 0,
+      "validation_threshold": 18.0,
+      "validation_passed": false,
+      "keyword_hits": [],
+      "pages_checked": 0,
+      "pages_ranked": 0,
+      "discovery_method": "no usable source found",
+      "fetch_status": "UNAVAILABLE"
+    },
+    {
+      "source_key": "gis_bnpb",
+      "title": "BNPB GIS",
+      "url": null,
+      "published_at": null,
+      "reference_type": "unavailable",
+      "relevance_score": 0,
+      "validation_threshold": 18.0,
+      "validation_passed": false,
+      "keyword_hits": [],
+      "pages_checked": 0,
+      "pages_ranked": 0,
+      "discovery_method": "no usable source found",
+      "fetch_status": "UNAVAILABLE"
     }
   ]
 }

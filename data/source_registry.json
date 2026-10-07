@@ -1,129 +1,85 @@
 {
-  "generated_at": "2026-10-07T04:46:01.295731+00:00",
+  "generated_at": "2026-10-07T14:31:19+00:00",
+  "discovery_mode": "adaptive keywords + robots/sitemap + homepage/internal links + site-restricted search + relevance/recency validation",
   "sources": [
     {
-      "title": "BNPB — Dashboard Karhutla 2026",
-      "description": "Keyword candidate did not meet the relevance threshold; fixed reference used.",
-      "date": null,
-      "url": "https://gis.bnpb.go.id/karhutla2026/",
-      "reference_type": "fixed_reference",
-      "relevance_score": 20,
-      "validation_threshold": 18,
+      "source_key": "bnpb",
+      "title": "BNPB",
+      "url": "https://bnpb.go.id/berita/perkembangan-situasi-terkini-penanganan-karhutla-di-6-provinsi-prioritas",
+      "published_at": "2026-09-30",
+      "reference_type": "safety_reference_fallback",
+      "relevance_score": 53.5,
+      "validation_threshold": 18.0,
       "validation_passed": false,
       "keyword_hits": [
         "karhutla",
-        "hotspot",
-        "personel gabungan"
-      ],
-      "pages_checked": 0,
-      "fetch_status": "OK"
-    },
-    {
-      "title": "BNPB — Situasi Terkini 6 Provinsi Prioritas",
-      "description": "Keyword candidate did not meet the relevance threshold; fixed reference used.",
-      "date": null,
-      "url": "https://bnpb.go.id/index.php/berita/perkembangan-situasi-terkini-penanganan-karhutla-di-6-provinsi-prioritas",
-      "reference_type": "fixed_reference",
-      "relevance_score": 19,
-      "validation_threshold": 18,
-      "validation_passed": false,
-      "keyword_hits": [
-        "karhutla",
-        "6 provinsi prioritas"
-      ],
-      "pages_checked": 36,
-      "fetch_status": "UNAVAILABLE"
-    },
-    {
-      "title": "BNPB — Cumulative Province Snapshot",
-      "description": "Keyword candidate did not meet the relevance threshold; fixed reference used.",
-      "date": null,
-      "url": "https://www.bnpb.go.id/berita/kepala-bnpb-hadiri-rakor-penanganan-karhutla-pemerintah-perkuat-operasi-darat-hadapi-puncak-risiko-agustusseptember",
-      "reference_type": "fixed_reference",
-      "relevance_score": 32,
-      "validation_threshold": 18,
-      "validation_passed": false,
-      "keyword_hits": [
-        "karhutla",
-        "48.889,69",
-        "28.680,47",
-        "15.551,76",
-        "3.069,52",
-        "664,87",
-        "540",
-        "383,07",
-        "9 agustus 2026"
-      ],
-      "pages_checked": 36,
-      "fetch_status": "OK"
-    },
-    {
-      "title": "BMKG — Karhutla & Hotspot Monitoring",
-      "description": "Keyword-discovered reference validated by relevance score.",
-      "date": null,
-      "url": "https://www.bmkg.go.id/cuaca/karhutla",
-      "reference_type": "keyword_match",
-      "relevance_score": 27,
-      "validation_threshold": 18,
-      "validation_passed": true,
-      "keyword_hits": [
-        "karhutla",
-        "hotspot",
-        "kebakaran hutan dan lahan"
-      ],
-      "pages_checked": 35,
-      "fetch_status": "OK"
-    },
-    {
-      "title": "BMKG — El Niño & Karhutla Risk",
-      "description": "Keyword-discovered reference validated by relevance score.",
-      "date": null,
-      "url": "https://www.bmkg.go.id/cuaca/karhutla",
-      "reference_type": "keyword_match",
-      "relevance_score": 20,
-      "validation_threshold": 18,
-      "validation_passed": true,
-      "keyword_hits": [
-        "el niño",
-        "karhutla",
-        "hotspot"
-      ],
-      "pages_checked": 35,
-      "fetch_status": "OK"
-    },
-    {
-      "title": "BNPB — Kalimantan Tengah Evaluation",
-      "description": "Keyword candidate did not meet the relevance threshold; fixed reference used.",
-      "date": null,
-      "url": "https://bnpb.go.id/index.php/berita/evaluasi-penanganan-karhutla-kalimantan-tengah-bnpb-perkuat-pemadaman-darat",
-      "reference_type": "fixed_reference",
-      "relevance_score": 19,
-      "validation_threshold": 18,
-      "validation_passed": false,
-      "keyword_hits": [
-        "kalimantan tengah",
-        "karhutla"
-      ],
-      "pages_checked": 36,
-      "fetch_status": "UNAVAILABLE"
-    },
-    {
-      "title": "BMKG — OMC Kalimantan Barat",
-      "description": "Keyword-discovered reference validated by relevance score.",
-      "date": null,
-      "url": "https://www.bmkg.go.id/cuaca/modifikasi-cuaca",
-      "reference_type": "keyword_match",
-      "relevance_score": 22,
-      "validation_threshold": 18,
-      "validation_passed": true,
-      "keyword_hits": [
-        "kalimantan barat",
-        "karhutla",
+        "kebakaran hutan dan lahan",
+        "luas lahan terbakar",
+        "pemadaman",
+        "pendinginan",
+        "water bombing",
+        "operasi darat",
+        "operasi udara",
+        "operasi modifikasi cuaca",
         "omc",
-        "operasi modifikasi cuaca"
+        "kabut asap",
+        "enam provinsi prioritas"
       ],
-      "pages_checked": 35,
+      "pages_checked": 80,
+      "pages_ranked": 61,
+      "discovery_method": "safety reference fallback",
       "fetch_status": "OK"
+    },
+    {
+      "source_key": "bmkg",
+      "title": "BMKG",
+      "url": "https://www.bmkg.go.id/berita/utama",
+      "published_at": "2026-10-15",
+      "reference_type": "keyword_discovered",
+      "relevance_score": 39.5,
+      "validation_threshold": 18.0,
+      "validation_passed": true,
+      "keyword_hits": [
+        "karhutla",
+        "kebakaran hutan dan lahan",
+        "operasi modifikasi cuaca",
+        "omc",
+        "kabut asap"
+      ],
+      "pages_checked": 22,
+      "pages_ranked": 56,
+      "discovery_method": "robots/sitemap + homepage/internal links + site-restricted search + relevance/recency ranking",
+      "fetch_status": "OK"
+    },
+    {
+      "source_key": "kemenhut",
+      "title": "Kementerian Kehutanan",
+      "url": null,
+      "published_at": null,
+      "reference_type": "unavailable",
+      "relevance_score": 0,
+      "validation_threshold": 18.0,
+      "validation_passed": false,
+      "keyword_hits": [],
+      "pages_checked": 0,
+      "pages_ranked": 0,
+      "discovery_method": "no usable source found",
+      "fetch_status": "UNAVAILABLE"
+    },
+    {
+      "source_key": "gis_bnpb",
+      "title": "BNPB GIS",
+      "url": null,
+      "published_at": null,
+      "reference_type": "unavailable",
+      "relevance_score": 0,
+      "validation_threshold": 18.0,
+      "validation_passed": false,
+      "keyword_hits": [],
+      "pages_checked": 0,
+      "pages_ranked": 0,
+      "discovery_method": "no usable source found",
+      "fetch_status": "UNAVAILABLE"
     }
   ]
 }
