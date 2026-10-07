@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "last_updated": "2026-10-07T14:31:19+00:00",
-    "last_updated_display": "07 October 2026, 14:31 WIB",
+    "last_updated": "2026-10-07T21:50:53+00:00",
+    "last_updated_display": "07 October 2026, 21:50 WIB",
     "report_title": "Karhutla Indonesia 2026 — Situasi & Penanganan",
     "scope": "Six priority provinces",
     "discovery_mode": "adaptive keywords + robots/sitemap + homepage/internal links + site-restricted search + relevance/recency validation",
@@ -11,12 +11,7 @@
     "fallback_policy": "Safety references are secondary only. Missing metric values are carried forward from the previous JSON and explicitly marked as such.",
     "author": "Kelvin Irawan",
     "data_quality": {
-      "fresh_fields": [
-        "handled_area_ground_ha",
-        "handled_area_air_ha",
-        "uncontrolled_area_ha",
-        "total_burned_area_situation_ha"
-      ],
+      "fresh_fields": [],
       "carried_forward_fields": [
         "total_hotspots",
         "fire_spots",
@@ -24,13 +19,17 @@
         "handled_area_today_ha",
         "personnel",
         "air_units",
-        "affected_regencies_cities"
+        "affected_regencies_cities",
+        "handled_area_ground_ha",
+        "handled_area_air_ha",
+        "uncontrolled_area_ha",
+        "total_burned_area_situation_ha"
       ],
       "missing_fields": [],
       "metric_extraction_mode": "adaptive_patterns"
     },
     "source_dates": {
-      "bnpb": "2026-09-30",
+      "bnpb": null,
       "bmkg": "2026-10-15",
       "kemenhut": null,
       "gis_bnpb": null
@@ -155,29 +154,18 @@
       "source_key": "bnpb",
       "title": "BNPB",
       "url": "https://bnpb.go.id/berita/perkembangan-situasi-terkini-penanganan-karhutla-di-6-provinsi-prioritas",
-      "published_at": "2026-09-30",
+      "published_at": null,
       "reference_type": "safety_reference_fallback",
-      "relevance_score": 53.5,
+      "relevance_score": 11.0,
       "validation_threshold": 18.0,
       "validation_passed": false,
       "keyword_hits": [
-        "karhutla",
-        "kebakaran hutan dan lahan",
-        "luas lahan terbakar",
-        "pemadaman",
-        "pendinginan",
-        "water bombing",
-        "operasi darat",
-        "operasi udara",
-        "operasi modifikasi cuaca",
-        "omc",
-        "kabut asap",
-        "enam provinsi prioritas"
+        "karhutla"
       ],
       "pages_checked": 80,
-      "pages_ranked": 61,
+      "pages_ranked": 0,
       "discovery_method": "safety reference fallback",
-      "fetch_status": "OK"
+      "fetch_status": "UNAVAILABLE"
     },
     {
       "source_key": "bmkg",
