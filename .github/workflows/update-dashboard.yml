@@ -1,0 +1,81 @@
+name: Update Karhutla Dashboard Data
+
+on:
+  schedule:
+    # 00:00 Asia/Jakarta = 17:00 UTC on the previous calendar day.
+    - cron: "0 17 * * *"
+  workflow_dispatch:
+    inputs:
+      days_back:
+        description: "How many days back to search for official updates"
+        required: false
+        default: "45"
+      threshold:
+        description: "Minimum relevance score for discovered source pages"
+        required: false
+        default: "18"
+      keywords:
+        description: "Optional extra keywords, comma-separated"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: karhutla-data-update
+  cancel-in-progress: false
+
+jobs:
+  scrape-and-commit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install requests beautifulsoup4 lxml
+
+      - name: Run adaptive Karhutla scraper
+        env:
+          DAYS_BACK: ${{ github.event.inputs.days_back || '45' }}
+          THRESHOLD: ${{ github.event.inputs.threshold || '18' }}
+          EXTRA_KEYWORDS: ${{ github.event.inputs.keywords || '' }}
+        run: |
+          CMD=(python scrape_karhutla_2026_adaptive.py --days-back "$DAYS_BACK" --threshold "$THRESHOLD")
+          if [ -n "$EXTRA_KEYWORDS" ]; then
+            IFS=',' read -ra KW <<< "$EXTRA_KEYWORDS"
+            for kw in "${KW[@]}"; do
+              CMD+=(--keyword "$kw")
+            done
+          fi
+          "${CMD[@]}"
+
+      - name: Show generated data
+        run: |
+          echo "Generated files:"
+          ls -lh data/
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+          else
+            git commit -m "chore(data): update Karhutla dashboard"
+            git push
+          fi
