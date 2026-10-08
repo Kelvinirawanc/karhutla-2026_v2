@@ -1,42 +1,54 @@
 {
-  "generated_at": "2026-10-07T21:50:53+00:00",
+  "generated_at": "2026-10-08T21:55:37+00:00",
   "discovery_mode": "adaptive keywords + robots/sitemap + homepage/internal links + site-restricted search + relevance/recency validation",
   "sources": [
     {
       "source_key": "bnpb",
       "title": "BNPB",
       "url": "https://bnpb.go.id/berita/perkembangan-situasi-terkini-penanganan-karhutla-di-6-provinsi-prioritas",
-      "published_at": null,
+      "published_at": "2026-09-30",
       "reference_type": "safety_reference_fallback",
-      "relevance_score": 11.0,
+      "relevance_score": 49.5,
       "validation_threshold": 18.0,
       "validation_passed": false,
       "keyword_hits": [
-        "karhutla"
+        "karhutla",
+        "kebakaran hutan dan lahan",
+        "luas lahan terbakar",
+        "pemadaman",
+        "pendinginan",
+        "water bombing",
+        "operasi darat",
+        "operasi udara",
+        "operasi modifikasi cuaca",
+        "omc",
+        "kabut asap",
+        "enam provinsi prioritas"
       ],
       "pages_checked": 80,
-      "pages_ranked": 0,
+      "pages_ranked": 61,
       "discovery_method": "safety reference fallback",
-      "fetch_status": "UNAVAILABLE"
+      "fetch_status": "OK"
     },
     {
       "source_key": "bmkg",
       "title": "BMKG",
-      "url": "https://www.bmkg.go.id/berita/utama",
+      "url": "https://www.bmkg.go.id/cuaca/potensi-hujan-sepekan",
       "published_at": "2026-10-15",
       "reference_type": "keyword_discovered",
-      "relevance_score": 39.5,
+      "relevance_score": 39.0,
       "validation_threshold": 18.0,
       "validation_passed": true,
       "keyword_hits": [
         "karhutla",
-        "kebakaran hutan dan lahan",
-        "operasi modifikasi cuaca",
-        "omc",
-        "kabut asap"
+        "hotspot",
+        "titik panas",
+        "prakiraan cuaca",
+        "hari tanpa hujan",
+        "el niño"
       ],
-      "pages_checked": 22,
-      "pages_ranked": 56,
+      "pages_checked": 30,
+      "pages_ranked": 57,
       "discovery_method": "robots/sitemap + homepage/internal links + site-restricted search + relevance/recency ranking",
       "fetch_status": "OK"
     },
