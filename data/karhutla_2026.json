@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "last_updated": "2026-10-08T21:55:37+00:00",
-    "last_updated_display": "08 October 2026, 21:55 WIB",
+    "last_updated": "2026-10-09T21:33:53+00:00",
+    "last_updated_display": "09 October 2026, 21:33 WIB",
     "report_title": "Karhutla Indonesia 2026 — Situasi & Penanganan",
     "scope": "Six priority provinces",
     "discovery_mode": "adaptive keywords + robots/sitemap + homepage/internal links + site-restricted search + relevance/recency validation",
@@ -197,7 +197,7 @@
         "el niño"
       ],
       "pages_checked": 30,
-      "pages_ranked": 57,
+      "pages_ranked": 59,
       "discovery_method": "robots/sitemap + homepage/internal links + site-restricted search + relevance/recency ranking",
       "fetch_status": "OK"
     },

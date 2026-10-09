@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T21:55:37+00:00",
+  "generated_at": "2026-10-09T21:33:53+00:00",
   "discovery_mode": "adaptive keywords + robots/sitemap + homepage/internal links + site-restricted search + relevance/recency validation",
   "sources": [
     {
@@ -48,7 +48,7 @@
         "el niño"
       ],
       "pages_checked": 30,
-      "pages_ranked": 57,
+      "pages_ranked": 59,
       "discovery_method": "robots/sitemap + homepage/internal links + site-restricted search + relevance/recency ranking",
       "fetch_status": "OK"
     },
