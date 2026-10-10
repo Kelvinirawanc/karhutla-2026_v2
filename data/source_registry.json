@@ -1,33 +1,26 @@
 {
-  "generated_at": "2026-10-09T21:33:53+00:00",
+  "generated_at": "2026-10-10T20:34:12+00:00",
   "discovery_mode": "adaptive keywords + robots/sitemap + homepage/internal links + site-restricted search + relevance/recency validation",
   "sources": [
     {
       "source_key": "bnpb",
       "title": "BNPB",
-      "url": "https://bnpb.go.id/berita/perkembangan-situasi-terkini-penanganan-karhutla-di-6-provinsi-prioritas",
-      "published_at": "2026-09-30",
-      "reference_type": "safety_reference_fallback",
-      "relevance_score": 49.5,
+      "url": "https://www.bnpb.go.id",
+      "published_at": "2026-10-10",
+      "reference_type": "keyword_discovered",
+      "relevance_score": 36.5,
       "validation_threshold": 18.0,
-      "validation_passed": false,
+      "validation_passed": true,
       "keyword_hits": [
         "karhutla",
         "kebakaran hutan dan lahan",
-        "luas lahan terbakar",
         "pemadaman",
-        "pendinginan",
-        "water bombing",
         "operasi darat",
-        "operasi udara",
-        "operasi modifikasi cuaca",
-        "omc",
-        "kabut asap",
-        "enam provinsi prioritas"
+        "satgas darat"
       ],
-      "pages_checked": 80,
-      "pages_ranked": 61,
-      "discovery_method": "safety reference fallback",
+      "pages_checked": 1,
+      "pages_ranked": 62,
+      "discovery_method": "robots/sitemap + homepage/internal links + site-restricted search + relevance/recency ranking",
       "fetch_status": "OK"
     },
     {
