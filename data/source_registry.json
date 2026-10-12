@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-11T20:53:52+00:00",
+  "generated_at": "2026-10-12T23:35:49+00:00",
   "discovery_mode": "adaptive keywords + robots/sitemap + homepage/internal links + site-restricted search + relevance/recency validation",
   "sources": [
     {
       "source_key": "bnpb",
       "title": "BNPB",
       "url": "https://www.bnpb.go.id",
-      "published_at": "2026-10-10",
+      "published_at": "2026-10-12",
       "reference_type": "keyword_discovered",
       "relevance_score": 41.5,
       "validation_threshold": 18.0,
@@ -29,7 +29,7 @@
       "source_key": "bmkg",
       "title": "BMKG",
       "url": "https://www.bmkg.go.id/cuaca/potensi-hujan-sepekan",
-      "published_at": "2026-10-15",
+      "published_at": "2026-10-19",
       "reference_type": "keyword_discovered",
       "relevance_score": 39.0,
       "validation_threshold": 18.0,
