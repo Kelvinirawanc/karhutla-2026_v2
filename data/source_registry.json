@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-12T23:35:49+00:00",
+  "generated_at": "2026-10-13T21:49:28+00:00",
   "discovery_mode": "adaptive keywords + robots/sitemap + homepage/internal links + site-restricted search + relevance/recency validation",
   "sources": [
     {
       "source_key": "bnpb",
       "title": "BNPB",
       "url": "https://www.bnpb.go.id",
-      "published_at": "2026-10-12",
+      "published_at": null,
       "reference_type": "keyword_discovered",
-      "relevance_score": 41.5,
+      "relevance_score": 18.5,
       "validation_threshold": 18.0,
       "validation_passed": true,
       "keyword_hits": [
@@ -16,8 +16,6 @@
         "kebakaran hutan dan lahan",
         "pemadaman",
         "operasi darat",
-        "omc",
-        "kabut asap",
         "satgas darat"
       ],
       "pages_checked": 1,
