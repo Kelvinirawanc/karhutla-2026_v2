@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "last_updated": "2026-10-14T20:34:22+00:00",
-    "last_updated_display": "14 October 2026, 20:34 WIB",
+    "last_updated": "2026-10-15T20:15:46+00:00",
+    "last_updated_display": "15 October 2026, 20:15 WIB",
     "report_title": "Karhutla Indonesia 2026 — Situasi & Penanganan",
     "scope": "Six priority provinces",
     "discovery_mode": "adaptive keywords + robots/sitemap + homepage/internal links + site-restricted search + relevance/recency validation",
     "relevance_threshold": 18.0,
     "max_source_age_days": 45,
-    "latest_discovered_source_date": "2026-10-19",
+    "latest_discovered_source_date": "2026-10-22",
     "fallback_policy": "Safety references are secondary only. Missing metric values are carried forward from the previous JSON and explicitly marked as such.",
     "author": "Kelvin Irawan",
     "data_quality": {
@@ -31,7 +31,7 @@
     },
     "source_dates": {
       "bnpb": null,
-      "bmkg": "2026-10-19",
+      "bmkg": "2026-10-22",
       "kemenhut": null,
       "gis_bnpb": null
     }
@@ -100,7 +100,7 @@
     }
   ],
   "hotspot_window_latest": {
-    "as_of_source_date": "2026-10-19",
+    "as_of_source_date": "2026-10-22",
     "high_confidence": [],
     "source_method": "adaptive province-context extraction"
   },
@@ -157,7 +157,7 @@
       "url": "https://www.bnpb.go.id",
       "published_at": null,
       "reference_type": "keyword_discovered",
-      "relevance_score": 18.5,
+      "relevance_score": 21.0,
       "validation_threshold": 18.0,
       "validation_passed": true,
       "keyword_hits": [
@@ -165,6 +165,7 @@
         "kebakaran hutan dan lahan",
         "pemadaman",
         "operasi darat",
+        "omc",
         "satgas darat"
       ],
       "pages_checked": 1,
@@ -176,7 +177,7 @@
       "source_key": "bmkg",
       "title": "BMKG",
       "url": "https://www.bmkg.go.id/cuaca/potensi-hujan-sepekan",
-      "published_at": "2026-10-19",
+      "published_at": "2026-10-22",
       "reference_type": "keyword_discovered",
       "relevance_score": 39.0,
       "validation_threshold": 18.0,

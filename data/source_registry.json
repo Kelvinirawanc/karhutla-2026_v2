@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T20:34:22+00:00",
+  "generated_at": "2026-10-15T20:15:46+00:00",
   "discovery_mode": "adaptive keywords + robots/sitemap + homepage/internal links + site-restricted search + relevance/recency validation",
   "sources": [
     {
@@ -8,7 +8,7 @@
       "url": "https://www.bnpb.go.id",
       "published_at": null,
       "reference_type": "keyword_discovered",
-      "relevance_score": 18.5,
+      "relevance_score": 21.0,
       "validation_threshold": 18.0,
       "validation_passed": true,
       "keyword_hits": [
@@ -16,6 +16,7 @@
         "kebakaran hutan dan lahan",
         "pemadaman",
         "operasi darat",
+        "omc",
         "satgas darat"
       ],
       "pages_checked": 1,
@@ -27,7 +28,7 @@
       "source_key": "bmkg",
       "title": "BMKG",
       "url": "https://www.bmkg.go.id/cuaca/potensi-hujan-sepekan",
-      "published_at": "2026-10-19",
+      "published_at": "2026-10-22",
       "reference_type": "keyword_discovered",
       "relevance_score": 39.0,
       "validation_threshold": 18.0,
