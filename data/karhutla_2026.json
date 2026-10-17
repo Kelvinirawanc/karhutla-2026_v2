@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "last_updated": "2026-10-16T19:53:29+00:00",
-    "last_updated_display": "16 October 2026, 19:53 WIB",
+    "last_updated": "2026-10-17T19:09:32+00:00",
+    "last_updated_display": "17 October 2026, 19:09 WIB",
     "report_title": "Karhutla Indonesia 2026 — Situasi & Penanganan",
     "scope": "Six priority provinces",
     "discovery_mode": "adaptive keywords + robots/sitemap + homepage/internal links + site-restricted search + relevance/recency validation",
@@ -157,7 +157,7 @@
       "url": "https://www.bnpb.go.id",
       "published_at": null,
       "reference_type": "keyword_discovered",
-      "relevance_score": 18.5,
+      "relevance_score": 21.0,
       "validation_threshold": 18.0,
       "validation_passed": true,
       "keyword_hits": [
@@ -165,6 +165,7 @@
         "kebakaran hutan dan lahan",
         "pemadaman",
         "operasi darat",
+        "omc",
         "satgas darat"
       ],
       "pages_checked": 1,
@@ -190,7 +191,7 @@
         "el niño"
       ],
       "pages_checked": 30,
-      "pages_ranked": 60,
+      "pages_ranked": 59,
       "discovery_method": "robots/sitemap + homepage/internal links + site-restricted search + relevance/recency ranking",
       "fetch_status": "OK"
     },
