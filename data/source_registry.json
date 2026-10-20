@@ -1,21 +1,22 @@
 {
-  "generated_at": "2026-10-19T21:25:40+00:00",
+  "generated_at": "2026-10-20T20:22:51+00:00",
   "discovery_mode": "adaptive keywords + robots/sitemap + homepage/internal links + site-restricted search + relevance/recency validation",
   "sources": [
     {
       "source_key": "bnpb",
       "title": "BNPB",
       "url": "https://www.bnpb.go.id",
-      "published_at": "2026-10-18",
+      "published_at": "2026-10-19",
       "reference_type": "keyword_discovered",
-      "relevance_score": 34.0,
+      "relevance_score": 36.5,
       "validation_threshold": 18.0,
       "validation_passed": true,
       "keyword_hits": [
         "karhutla",
         "kebakaran hutan dan lahan",
         "pemadaman",
-        "operasi darat"
+        "operasi darat",
+        "omc"
       ],
       "pages_checked": 1,
       "pages_ranked": 62,
@@ -26,7 +27,7 @@
       "source_key": "bmkg",
       "title": "BMKG",
       "url": "https://www.bmkg.go.id/cuaca/potensi-hujan-sepekan",
-      "published_at": "2026-10-22",
+      "published_at": "2026-10-26",
       "reference_type": "keyword_discovered",
       "relevance_score": 39.0,
       "validation_threshold": 18.0,
