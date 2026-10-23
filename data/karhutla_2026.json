@@ -1,37 +1,37 @@
 {
   "metadata": {
-    "last_updated": "2026-10-22T20:30:12+00:00",
-    "last_updated_display": "22 October 2026, 20:30 WIB",
+    "last_updated": "2026-10-23T20:24:43+00:00",
+    "last_updated_display": "23 October 2026, 20:24 WIB",
     "report_title": "Karhutla Indonesia 2026 — Situasi & Penanganan",
     "scope": "Six priority provinces",
     "discovery_mode": "adaptive keywords + robots/sitemap + homepage/internal links + site-restricted search + relevance/recency validation",
     "relevance_threshold": 18.0,
     "max_source_age_days": 45,
-    "latest_discovered_source_date": "2026-10-29",
+    "latest_discovered_source_date": "2026-10-26",
     "fallback_policy": "Safety references are secondary only. Missing metric values are carried forward from the previous JSON and explicitly marked as such.",
     "author": "Kelvin Irawan",
     "data_quality": {
       "fresh_fields": [
-        "total_hotspots",
-        "handled_area_ground_ha",
-        "handled_area_air_ha",
-        "uncontrolled_area_ha",
-        "total_burned_area_situation_ha"
+        "personnel",
+        "uncontrolled_area_ha"
       ],
       "carried_forward_fields": [
+        "total_hotspots",
         "fire_spots",
         "burned_area_24h_ha",
         "handled_area_today_ha",
-        "personnel",
         "air_units",
-        "affected_regencies_cities"
+        "affected_regencies_cities",
+        "handled_area_ground_ha",
+        "handled_area_air_ha",
+        "total_burned_area_situation_ha"
       ],
       "missing_fields": [],
       "metric_extraction_mode": "adaptive_patterns"
     },
     "source_dates": {
-      "bnpb": "2026-09-30",
-      "bmkg": "2026-10-29",
+      "bnpb": "2026-10-22",
+      "bmkg": "2026-10-26",
       "kemenhut": null,
       "gis_bnpb": null
     }
@@ -41,66 +41,72 @@
     "fire_spots": 202,
     "burned_area_24h_ha": 638.6,
     "handled_area_today_ha": 431.5,
-    "personnel": 2.5,
+    "personnel": 71878,
     "air_units": 57,
     "affected_regencies_cities": 36,
     "handled_area_ground_ha": 369.03,
     "handled_area_air_ha": 62.5,
-    "uncontrolled_area_ha": 96.07,
+    "uncontrolled_area_ha": 321.0,
     "total_burned_area_situation_ha": 527.6
   },
   "priority_provinces": [
     {
-      "name": "Kalimantan Barat",
-      "key": "kalimantan_barat",
-      "coverage": "Priority response",
-      "lat": -0.1,
-      "lng": 110.0,
-      "burned_area_snapshot_ha": 28680.47
-    },
-    {
       "name": "Riau",
       "key": "riau",
-      "coverage": "Priority response",
+      "burned_area_ha": 983.0,
       "lat": 0.3,
       "lng": 101.7,
-      "burned_area_snapshot_ha": 15551.76
-    },
-    {
-      "name": "Kalimantan Tengah",
-      "key": "kalimantan_tengah",
-      "coverage": "Priority response",
-      "lat": -1.7,
-      "lng": 113.4,
-      "burned_area_snapshot_ha": 3069.52
-    },
-    {
-      "name": "Sumatera Selatan",
-      "key": "sumatera_selatan",
-      "coverage": "Priority response",
-      "lat": -3.2,
-      "lng": 104.2,
-      "burned_area_snapshot_ha": 664.87
+      "source_method": "adaptive_context_extraction",
+      "coverage": "Priority response"
     },
     {
       "name": "Jambi",
       "key": "jambi",
-      "coverage": "Priority response",
+      "burned_area_ha": 983.0,
       "lat": -1.6,
       "lng": 103.6,
-      "burned_area_snapshot_ha": 540.0
+      "source_method": "adaptive_context_extraction",
+      "coverage": "Priority response"
+    },
+    {
+      "name": "Sumatera Selatan",
+      "key": "sumatera_selatan",
+      "burned_area_ha": 1044.0,
+      "lat": -3.2,
+      "lng": 104.2,
+      "source_method": "adaptive_context_extraction",
+      "coverage": "Priority response"
+    },
+    {
+      "name": "Kalimantan Barat",
+      "key": "kalimantan_barat",
+      "burned_area_ha": 983.0,
+      "lat": -0.1,
+      "lng": 110.0,
+      "source_method": "adaptive_context_extraction",
+      "coverage": "Priority response"
+    },
+    {
+      "name": "Kalimantan Tengah",
+      "key": "kalimantan_tengah",
+      "burned_area_ha": 321.0,
+      "lat": -1.7,
+      "lng": 113.4,
+      "source_method": "adaptive_context_extraction",
+      "coverage": "Priority response"
     },
     {
       "name": "Kalimantan Selatan",
       "key": "kalimantan_selatan",
-      "coverage": "Priority response",
+      "burned_area_ha": 983.0,
       "lat": -3.0,
       "lng": 115.4,
-      "burned_area_snapshot_ha": 383.07
+      "source_method": "adaptive_context_extraction",
+      "coverage": "Priority response"
     }
   ],
   "hotspot_window_latest": {
-    "as_of_source_date": "2026-10-29",
+    "as_of_source_date": "2026-10-26",
     "high_confidence": [],
     "source_method": "adaptive province-context extraction"
   },
@@ -154,51 +160,44 @@
     {
       "source_key": "bnpb",
       "title": "BNPB",
-      "url": "https://bnpb.go.id/berita/perkembangan-situasi-terkini-penanganan-karhutla-di-6-provinsi-prioritas",
-      "published_at": "2026-09-30",
-      "reference_type": "safety_reference_fallback",
-      "relevance_score": 48.0,
+      "url": "https://ppid.bnpb.go.id/berita/bnpb-perbarui-penanganan-bencana-karhutla-hingga-pemulihan-pascagempa-ntt-373z",
+      "published_at": "2026-10-22",
+      "reference_type": "keyword_discovered",
+      "relevance_score": 53.0,
       "validation_threshold": 18.0,
-      "validation_passed": false,
+      "validation_passed": true,
       "keyword_hits": [
         "karhutla",
         "kebakaran hutan dan lahan",
-        "kebakaran lahan",
-        "luas lahan terbakar",
         "pemadaman",
-        "pendinginan",
         "water bombing",
-        "operasi darat",
-        "operasi udara",
         "operasi modifikasi cuaca",
         "omc",
-        "kabut asap",
         "enam provinsi prioritas"
       ],
-      "pages_checked": 80,
-      "pages_ranked": 62,
-      "discovery_method": "safety reference fallback",
+      "pages_checked": 28,
+      "pages_ranked": 19,
+      "discovery_method": "robots/sitemap + homepage/internal links + site-restricted search + relevance/recency ranking",
       "fetch_status": "OK"
     },
     {
       "source_key": "bmkg",
       "title": "BMKG",
-      "url": "https://www.bmkg.go.id/cuaca/potensi-hujan-sepekan",
-      "published_at": "2026-10-29",
+      "url": "https://www.bmkg.go.id/berita/utama",
+      "published_at": "2026-10-26",
       "reference_type": "keyword_discovered",
-      "relevance_score": 39.0,
+      "relevance_score": 39.5,
       "validation_threshold": 18.0,
       "validation_passed": true,
       "keyword_hits": [
         "karhutla",
-        "hotspot",
-        "titik panas",
-        "prakiraan cuaca",
-        "hari tanpa hujan",
-        "el niño"
+        "kebakaran hutan dan lahan",
+        "operasi modifikasi cuaca",
+        "omc",
+        "kabut asap"
       ],
-      "pages_checked": 30,
-      "pages_ranked": 58,
+      "pages_checked": 22,
+      "pages_ranked": 59,
       "discovery_method": "robots/sitemap + homepage/internal links + site-restricted search + relevance/recency ranking",
       "fetch_status": "OK"
     },
