@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "last_updated": "2026-10-24T19:22:31+00:00",
-    "last_updated_display": "24 October 2026, 19:22 WIB",
+    "last_updated": "2026-10-25T19:31:54+00:00",
+    "last_updated_display": "25 October 2026, 19:31 WIB",
     "report_title": "Karhutla Indonesia 2026 — Situasi & Penanganan",
     "scope": "Six priority provinces",
     "discovery_mode": "adaptive keywords + robots/sitemap + homepage/internal links + site-restricted search + relevance/recency validation",
@@ -11,7 +11,12 @@
     "fallback_policy": "Safety references are secondary only. Missing metric values are carried forward from the previous JSON and explicitly marked as such.",
     "author": "Kelvin Irawan",
     "data_quality": {
-      "fresh_fields": [],
+      "fresh_fields": [
+        "handled_area_ground_ha",
+        "handled_area_air_ha",
+        "uncontrolled_area_ha",
+        "total_burned_area_situation_ha"
+      ],
       "carried_forward_fields": [
         "total_hotspots",
         "fire_spots",
@@ -19,17 +24,13 @@
         "handled_area_today_ha",
         "personnel",
         "air_units",
-        "affected_regencies_cities",
-        "handled_area_ground_ha",
-        "handled_area_air_ha",
-        "uncontrolled_area_ha",
-        "total_burned_area_situation_ha"
+        "affected_regencies_cities"
       ],
       "missing_fields": [],
       "metric_extraction_mode": "adaptive_patterns"
     },
     "source_dates": {
-      "bnpb": null,
+      "bnpb": "2026-09-30",
       "bmkg": "2026-10-26",
       "kemenhut": null,
       "gis_bnpb": null
@@ -45,7 +46,7 @@
     "affected_regencies_cities": 36,
     "handled_area_ground_ha": 369.03,
     "handled_area_air_ha": 62.5,
-    "uncontrolled_area_ha": 321.0,
+    "uncontrolled_area_ha": 96.07,
     "total_burned_area_situation_ha": 527.6
   },
   "priority_provinces": [
@@ -160,18 +161,30 @@
       "source_key": "bnpb",
       "title": "BNPB",
       "url": "https://bnpb.go.id/berita/perkembangan-situasi-terkini-penanganan-karhutla-di-6-provinsi-prioritas",
-      "published_at": null,
+      "published_at": "2026-09-30",
       "reference_type": "safety_reference_fallback",
-      "relevance_score": 11.0,
+      "relevance_score": 48.0,
       "validation_threshold": 18.0,
       "validation_passed": false,
       "keyword_hits": [
-        "karhutla"
+        "karhutla",
+        "kebakaran hutan dan lahan",
+        "kebakaran lahan",
+        "luas lahan terbakar",
+        "pemadaman",
+        "pendinginan",
+        "water bombing",
+        "operasi darat",
+        "operasi udara",
+        "operasi modifikasi cuaca",
+        "omc",
+        "kabut asap",
+        "enam provinsi prioritas"
       ],
       "pages_checked": 80,
-      "pages_ranked": 61,
+      "pages_ranked": 62,
       "discovery_method": "safety reference fallback",
-      "fetch_status": "UNAVAILABLE"
+      "fetch_status": "OK"
     },
     {
       "source_key": "bmkg",
