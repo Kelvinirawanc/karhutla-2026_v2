@@ -1,20 +1,22 @@
 {
-  "generated_at": "2026-10-30T21:27:30+00:00",
+  "generated_at": "2026-10-31T20:27:14+00:00",
   "discovery_mode": "adaptive keywords + robots/sitemap + homepage/internal links + site-restricted search + relevance/recency validation",
   "sources": [
     {
       "source_key": "bnpb",
       "title": "BNPB",
       "url": "https://www.bnpb.go.id",
-      "published_at": "2026-10-30",
+      "published_at": "2026-11-05",
       "reference_type": "keyword_discovered",
-      "relevance_score": 31.5,
+      "relevance_score": 36.5,
       "validation_threshold": 18.0,
       "validation_passed": true,
       "keyword_hits": [
         "karhutla",
         "kebakaran hutan dan lahan",
-        "pemadaman"
+        "pemadaman",
+        "operasi modifikasi cuaca",
+        "omc"
       ],
       "pages_checked": 1,
       "pages_ranked": 62,
@@ -24,10 +26,10 @@
     {
       "source_key": "bmkg",
       "title": "BMKG",
-      "url": "https://www.bmkg.go.id/berita",
-      "published_at": "2026-10-28",
+      "url": "https://www.bmkg.go.id/berita/utama",
+      "published_at": "2026-10-26",
       "reference_type": "keyword_discovered",
-      "relevance_score": 41.5,
+      "relevance_score": 39.5,
       "validation_threshold": 18.0,
       "validation_passed": true,
       "keyword_hits": [
@@ -39,7 +41,7 @@
         "prakiraan cuaca",
         "el niño"
       ],
-      "pages_checked": 3,
+      "pages_checked": 23,
       "pages_ranked": 59,
       "discovery_method": "robots/sitemap + homepage/internal links + site-restricted search + relevance/recency ranking",
       "fetch_status": "OK"
