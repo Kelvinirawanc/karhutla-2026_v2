@@ -1,20 +1,19 @@
 {
   "metadata": {
-    "last_updated": "2026-11-03T22:15:53+00:00",
-    "last_updated_display": "03 November 2026, 22:15 WIB",
+    "last_updated": "2026-11-04T22:32:32+00:00",
+    "last_updated_display": "04 November 2026, 22:32 WIB",
     "report_title": "Karhutla Indonesia 2026 — Situasi & Penanganan",
     "scope": "Six priority provinces",
     "discovery_mode": "adaptive keywords + robots/sitemap + homepage/internal links + site-restricted search + relevance/recency validation",
     "relevance_threshold": 18.0,
     "max_source_age_days": 45,
-    "latest_discovered_source_date": "2026-11-05",
+    "latest_discovered_source_date": "2026-11-03",
     "fallback_policy": "Safety references are secondary only. Missing metric values are carried forward from the previous JSON and explicitly marked as such.",
     "author": "Kelvin Irawan",
     "data_quality": {
-      "fresh_fields": [
-        "total_hotspots"
-      ],
+      "fresh_fields": [],
       "carried_forward_fields": [
+        "total_hotspots",
         "fire_spots",
         "burned_area_24h_ha",
         "handled_area_today_ha",
@@ -31,7 +30,7 @@
     },
     "source_dates": {
       "bnpb": "2026-10-03",
-      "bmkg": "2026-11-05",
+      "bmkg": "2026-11-03",
       "kemenhut": null,
       "gis_bnpb": null
     }
@@ -106,7 +105,7 @@
     }
   ],
   "hotspot_window_latest": {
-    "as_of_source_date": "2026-11-05",
+    "as_of_source_date": "2026-11-03",
     "high_confidence": [],
     "source_method": "adaptive province-context extraction"
   },
@@ -174,29 +173,30 @@
         "omc"
       ],
       "pages_checked": 1,
-      "pages_ranked": 27,
+      "pages_ranked": 62,
       "discovery_method": "robots/sitemap + homepage/internal links + site-restricted search + relevance/recency ranking",
       "fetch_status": "OK"
     },
     {
       "source_key": "bmkg",
       "title": "BMKG",
-      "url": "https://www.bmkg.go.id/cuaca/potensi-hujan-sepekan",
-      "published_at": "2026-11-05",
+      "url": "https://www.bmkg.go.id/berita/utama",
+      "published_at": "2026-11-03",
       "reference_type": "keyword_discovered",
-      "relevance_score": 39.0,
+      "relevance_score": 44.5,
       "validation_threshold": 18.0,
       "validation_passed": true,
       "keyword_hits": [
         "karhutla",
-        "hotspot",
-        "titik panas",
+        "kebakaran hutan dan lahan",
+        "operasi modifikasi cuaca",
+        "omc",
+        "kabut asap",
         "prakiraan cuaca",
-        "hari tanpa hujan",
         "el niño"
       ],
-      "pages_checked": 29,
-      "pages_ranked": 59,
+      "pages_checked": 23,
+      "pages_ranked": 49,
       "discovery_method": "robots/sitemap + homepage/internal links + site-restricted search + relevance/recency ranking",
       "fetch_status": "OK"
     },
