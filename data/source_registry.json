@@ -1,21 +1,20 @@
 {
-  "generated_at": "2026-11-06T22:01:32+00:00",
+  "generated_at": "2026-11-07T20:45:57+00:00",
   "discovery_mode": "adaptive keywords + robots/sitemap + homepage/internal links + site-restricted search + relevance/recency validation",
   "sources": [
     {
       "source_key": "bnpb",
       "title": "BNPB",
       "url": "https://www.bnpb.go.id",
-      "published_at": "2026-11-04",
+      "published_at": null,
       "reference_type": "keyword_discovered",
-      "relevance_score": 41.5,
+      "relevance_score": 21.0,
       "validation_threshold": 18.0,
       "validation_passed": true,
       "keyword_hits": [
         "karhutla",
         "kebakaran hutan dan lahan",
         "pemadaman",
-        "water bombing",
         "operasi udara",
         "operasi modifikasi cuaca",
         "omc"

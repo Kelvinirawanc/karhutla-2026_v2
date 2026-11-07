@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "last_updated": "2026-11-06T22:01:32+00:00",
-    "last_updated_display": "06 November 2026, 22:01 WIB",
+    "last_updated": "2026-11-07T20:45:57+00:00",
+    "last_updated_display": "07 November 2026, 20:45 WIB",
     "report_title": "Karhutla Indonesia 2026 — Situasi & Penanganan",
     "scope": "Six priority provinces",
     "discovery_mode": "adaptive keywords + robots/sitemap + homepage/internal links + site-restricted search + relevance/recency validation",
     "relevance_threshold": 18.0,
     "max_source_age_days": 45,
-    "latest_discovered_source_date": "2026-11-04",
+    "latest_discovered_source_date": "2026-11-03",
     "fallback_policy": "Safety references are secondary only. Missing metric values are carried forward from the previous JSON and explicitly marked as such.",
     "author": "Kelvin Irawan",
     "data_quality": {
@@ -29,7 +29,7 @@
       "metric_extraction_mode": "adaptive_patterns"
     },
     "source_dates": {
-      "bnpb": "2026-11-04",
+      "bnpb": null,
       "bmkg": "2026-11-03",
       "kemenhut": null,
       "gis_bnpb": null
@@ -105,7 +105,7 @@
     }
   ],
   "hotspot_window_latest": {
-    "as_of_source_date": "2026-11-04",
+    "as_of_source_date": "2026-11-03",
     "high_confidence": [],
     "source_method": "adaptive province-context extraction"
   },
@@ -160,16 +160,15 @@
       "source_key": "bnpb",
       "title": "BNPB",
       "url": "https://www.bnpb.go.id",
-      "published_at": "2026-11-04",
+      "published_at": null,
       "reference_type": "keyword_discovered",
-      "relevance_score": 41.5,
+      "relevance_score": 21.0,
       "validation_threshold": 18.0,
       "validation_passed": true,
       "keyword_hits": [
         "karhutla",
         "kebakaran hutan dan lahan",
         "pemadaman",
-        "water bombing",
         "operasi udara",
         "operasi modifikasi cuaca",
         "omc"
