@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-11-10T22:15:25+00:00",
+  "generated_at": "2026-11-11T23:23:43+00:00",
   "discovery_mode": "adaptive keywords + robots/sitemap + homepage/internal links + site-restricted search + relevance/recency validation",
   "sources": [
     {
       "source_key": "bnpb",
       "title": "BNPB",
-      "url": "https://www.bnpb.go.id",
-      "published_at": null,
+      "url": "https://ppid.bnpb.go.id/berita/bencana-asap-kepala-bnpb-kolaborasi-pemadaman-mitigasi-dan-pencegahan-karhutla-di-lahan-sawit-gmjS",
+      "published_at": "2026-10-28",
       "reference_type": "keyword_discovered",
-      "relevance_score": 21.0,
+      "relevance_score": 52.0,
       "validation_threshold": 18.0,
       "validation_passed": true,
       "keyword_hits": [
         "karhutla",
         "kebakaran hutan dan lahan",
+        "hotspot",
+        "titik panas",
         "pemadaman",
-        "operasi udara",
-        "operasi modifikasi cuaca",
-        "omc"
+        "kabut asap"
       ],
-      "pages_checked": 1,
-      "pages_ranked": 62,
+      "pages_checked": 27,
+      "pages_ranked": 23,
       "discovery_method": "robots/sitemap + homepage/internal links + site-restricted search + relevance/recency ranking",
       "fetch_status": "OK"
     },
     {
       "source_key": "bmkg",
       "title": "BMKG",
-      "url": "https://www.bmkg.go.id/berita/utama",
-      "published_at": "2026-11-03",
+      "url": "https://www.bmkg.go.id/siaran-pers",
+      "published_at": "2026-11-11",
       "reference_type": "keyword_discovered",
-      "relevance_score": 39.5,
+      "relevance_score": 39.0,
       "validation_threshold": 18.0,
       "validation_passed": true,
       "keyword_hits": [
@@ -39,10 +39,9 @@
         "operasi modifikasi cuaca",
         "omc",
         "kabut asap",
-        "prakiraan cuaca",
         "el niño"
       ],
-      "pages_checked": 23,
+      "pages_checked": 17,
       "pages_ranked": 59,
       "discovery_method": "robots/sitemap + homepage/internal links + site-restricted search + relevance/recency ranking",
       "fetch_status": "OK"

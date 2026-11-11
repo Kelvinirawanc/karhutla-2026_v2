@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "last_updated": "2026-11-10T22:15:25+00:00",
-    "last_updated_display": "10 November 2026, 22:15 WIB",
+    "last_updated": "2026-11-11T23:23:43+00:00",
+    "last_updated_display": "11 November 2026, 23:23 WIB",
     "report_title": "Karhutla Indonesia 2026 — Situasi & Penanganan",
     "scope": "Six priority provinces",
     "discovery_mode": "adaptive keywords + robots/sitemap + homepage/internal links + site-restricted search + relevance/recency validation",
     "relevance_threshold": 18.0,
     "max_source_age_days": 45,
-    "latest_discovered_source_date": "2026-11-03",
+    "latest_discovered_source_date": "2026-11-11",
     "fallback_policy": "Safety references are secondary only. Missing metric values are carried forward from the previous JSON and explicitly marked as such.",
     "author": "Kelvin Irawan",
     "data_quality": {
@@ -29,8 +29,8 @@
       "metric_extraction_mode": "adaptive_patterns"
     },
     "source_dates": {
-      "bnpb": null,
-      "bmkg": "2026-11-03",
+      "bnpb": "2026-10-28",
+      "bmkg": "2026-11-11",
       "kemenhut": null,
       "gis_bnpb": null
     }
@@ -105,7 +105,7 @@
     }
   ],
   "hotspot_window_latest": {
-    "as_of_source_date": "2026-11-03",
+    "as_of_source_date": "2026-11-11",
     "high_confidence": [],
     "source_method": "adaptive province-context extraction"
   },
@@ -159,32 +159,32 @@
     {
       "source_key": "bnpb",
       "title": "BNPB",
-      "url": "https://www.bnpb.go.id",
-      "published_at": null,
+      "url": "https://ppid.bnpb.go.id/berita/bencana-asap-kepala-bnpb-kolaborasi-pemadaman-mitigasi-dan-pencegahan-karhutla-di-lahan-sawit-gmjS",
+      "published_at": "2026-10-28",
       "reference_type": "keyword_discovered",
-      "relevance_score": 21.0,
+      "relevance_score": 52.0,
       "validation_threshold": 18.0,
       "validation_passed": true,
       "keyword_hits": [
         "karhutla",
         "kebakaran hutan dan lahan",
+        "hotspot",
+        "titik panas",
         "pemadaman",
-        "operasi udara",
-        "operasi modifikasi cuaca",
-        "omc"
+        "kabut asap"
       ],
-      "pages_checked": 1,
-      "pages_ranked": 62,
+      "pages_checked": 27,
+      "pages_ranked": 23,
       "discovery_method": "robots/sitemap + homepage/internal links + site-restricted search + relevance/recency ranking",
       "fetch_status": "OK"
     },
     {
       "source_key": "bmkg",
       "title": "BMKG",
-      "url": "https://www.bmkg.go.id/berita/utama",
-      "published_at": "2026-11-03",
+      "url": "https://www.bmkg.go.id/siaran-pers",
+      "published_at": "2026-11-11",
       "reference_type": "keyword_discovered",
-      "relevance_score": 39.5,
+      "relevance_score": 39.0,
       "validation_threshold": 18.0,
       "validation_passed": true,
       "keyword_hits": [
@@ -193,10 +193,9 @@
         "operasi modifikasi cuaca",
         "omc",
         "kabut asap",
-        "prakiraan cuaca",
         "el niño"
       ],
-      "pages_checked": 23,
+      "pages_checked": 17,
       "pages_ranked": 59,
       "discovery_method": "robots/sitemap + homepage/internal links + site-restricted search + relevance/recency ranking",
       "fetch_status": "OK"
