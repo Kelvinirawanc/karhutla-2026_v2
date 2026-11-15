@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "last_updated": "2026-11-14T21:14:07+00:00",
-    "last_updated_display": "14 November 2026, 21:14 WIB",
+    "last_updated": "2026-11-15T21:34:26+00:00",
+    "last_updated_display": "15 November 2026, 21:34 WIB",
     "report_title": "Karhutla Indonesia 2026 — Situasi & Penanganan",
     "scope": "Six priority provinces",
     "discovery_mode": "adaptive keywords + robots/sitemap + homepage/internal links + site-restricted search + relevance/recency validation",
     "relevance_threshold": 18.0,
     "max_source_age_days": 45,
-    "latest_discovered_source_date": "2026-11-12",
+    "latest_discovered_source_date": "2026-12-20",
     "fallback_policy": "Safety references are secondary only. Missing metric values are carried forward from the previous JSON and explicitly marked as such.",
     "author": "Kelvin Irawan",
     "data_quality": {
@@ -30,7 +30,7 @@
     },
     "source_dates": {
       "bnpb": null,
-      "bmkg": "2026-11-12",
+      "bmkg": "2026-12-20",
       "kemenhut": null,
       "gis_bnpb": null
     }
@@ -105,7 +105,7 @@
     }
   ],
   "hotspot_window_latest": {
-    "as_of_source_date": "2026-11-12",
+    "as_of_source_date": "2026-12-20",
     "high_confidence": [],
     "source_method": "adaptive province-context extraction"
   },
@@ -159,37 +159,40 @@
     {
       "source_key": "bnpb",
       "title": "BNPB",
-      "url": "https://bnpb.go.id/berita/perkembangan-situasi-terkini-penanganan-karhutla-di-6-provinsi-prioritas",
+      "url": "https://www.bnpb.go.id",
       "published_at": null,
-      "reference_type": "safety_reference_fallback",
-      "relevance_score": 11.0,
-      "validation_threshold": 18.0,
-      "validation_passed": false,
-      "keyword_hits": [
-        "karhutla"
-      ],
-      "pages_checked": 80,
-      "pages_ranked": 0,
-      "discovery_method": "safety reference fallback",
-      "fetch_status": "UNAVAILABLE"
-    },
-    {
-      "source_key": "bmkg",
-      "title": "BMKG",
-      "url": "https://www.bmkg.go.id/berita/utama",
-      "published_at": "2026-11-12",
       "reference_type": "keyword_discovered",
-      "relevance_score": 39.5,
+      "relevance_score": 21.0,
       "validation_threshold": 18.0,
       "validation_passed": true,
       "keyword_hits": [
         "karhutla",
         "kebakaran hutan dan lahan",
+        "pemadaman",
+        "operasi udara",
         "operasi modifikasi cuaca",
-        "omc",
-        "kabut asap"
+        "omc"
       ],
-      "pages_checked": 23,
+      "pages_checked": 1,
+      "pages_ranked": 62,
+      "discovery_method": "robots/sitemap + homepage/internal links + site-restricted search + relevance/recency ranking",
+      "fetch_status": "OK"
+    },
+    {
+      "source_key": "bmkg",
+      "title": "BMKG",
+      "url": "https://www.bmkg.go.id/berita/daerah",
+      "published_at": "2026-12-20",
+      "reference_type": "keyword_discovered",
+      "relevance_score": 34.5,
+      "validation_threshold": 18.0,
+      "validation_passed": true,
+      "keyword_hits": [
+        "karhutla",
+        "kebakaran hutan dan lahan",
+        "el niño"
+      ],
+      "pages_checked": 20,
       "pages_ranked": 59,
       "discovery_method": "robots/sitemap + homepage/internal links + site-restricted search + relevance/recency ranking",
       "fetch_status": "OK"
