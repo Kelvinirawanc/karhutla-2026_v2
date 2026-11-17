@@ -1,26 +1,27 @@
 {
-  "generated_at": "2026-11-15T21:34:26+00:00",
+  "generated_at": "2026-11-17T00:43:52+00:00",
   "discovery_mode": "adaptive keywords + robots/sitemap + homepage/internal links + site-restricted search + relevance/recency validation",
   "sources": [
     {
       "source_key": "bnpb",
       "title": "BNPB",
-      "url": "https://www.bnpb.go.id",
-      "published_at": null,
+      "url": "https://bnpb.go.id/berita/bnpb-optimalkan-penanganan-karhutla-kemitraan-internasional-perkokoh-operasi-udara",
+      "published_at": "2026-11-12",
       "reference_type": "keyword_discovered",
-      "relevance_score": 21.0,
+      "relevance_score": 43.0,
       "validation_threshold": 18.0,
       "validation_passed": true,
       "keyword_hits": [
         "karhutla",
         "kebakaran hutan dan lahan",
         "pemadaman",
+        "water bombing",
+        "operasi darat",
         "operasi udara",
-        "operasi modifikasi cuaca",
         "omc"
       ],
-      "pages_checked": 1,
-      "pages_ranked": 62,
+      "pages_checked": 8,
+      "pages_ranked": 37,
       "discovery_method": "robots/sitemap + homepage/internal links + site-restricted search + relevance/recency ranking",
       "fetch_status": "OK"
     },
