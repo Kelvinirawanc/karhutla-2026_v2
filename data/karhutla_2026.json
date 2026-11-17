@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "last_updated": "2026-11-17T00:43:52+00:00",
-    "last_updated_display": "17 November 2026, 00:43 WIB",
+    "last_updated": "2026-11-17T23:49:12+00:00",
+    "last_updated_display": "17 November 2026, 23:49 WIB",
     "report_title": "Karhutla Indonesia 2026 — Situasi & Penanganan",
     "scope": "Six priority provinces",
     "discovery_mode": "adaptive keywords + robots/sitemap + homepage/internal links + site-restricted search + relevance/recency validation",
@@ -29,7 +29,7 @@
       "metric_extraction_mode": "adaptive_patterns"
     },
     "source_dates": {
-      "bnpb": "2026-11-12",
+      "bnpb": null,
       "bmkg": "2026-12-20",
       "kemenhut": null,
       "gis_bnpb": null
@@ -159,25 +159,19 @@
     {
       "source_key": "bnpb",
       "title": "BNPB",
-      "url": "https://bnpb.go.id/berita/bnpb-optimalkan-penanganan-karhutla-kemitraan-internasional-perkokoh-operasi-udara",
-      "published_at": "2026-11-12",
-      "reference_type": "keyword_discovered",
-      "relevance_score": 43.0,
+      "url": "https://bnpb.go.id/berita/perkembangan-situasi-terkini-penanganan-karhutla-di-6-provinsi-prioritas",
+      "published_at": null,
+      "reference_type": "safety_reference_fallback",
+      "relevance_score": 11.0,
       "validation_threshold": 18.0,
-      "validation_passed": true,
+      "validation_passed": false,
       "keyword_hits": [
-        "karhutla",
-        "kebakaran hutan dan lahan",
-        "pemadaman",
-        "water bombing",
-        "operasi darat",
-        "operasi udara",
-        "omc"
+        "karhutla"
       ],
-      "pages_checked": 8,
-      "pages_ranked": 37,
-      "discovery_method": "robots/sitemap + homepage/internal links + site-restricted search + relevance/recency ranking",
-      "fetch_status": "OK"
+      "pages_checked": 80,
+      "pages_ranked": 0,
+      "discovery_method": "safety reference fallback",
+      "fetch_status": "UNAVAILABLE"
     },
     {
       "source_key": "bmkg",
