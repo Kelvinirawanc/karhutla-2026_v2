@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T23:21:58+00:00",
+  "generated_at": "2026-11-19T23:29:41+00:00",
   "discovery_mode": "adaptive keywords + robots/sitemap + homepage/internal links + site-restricted search + relevance/recency validation",
   "sources": [
     {
@@ -37,8 +37,8 @@
         "kebakaran hutan dan lahan",
         "el niño"
       ],
-      "pages_checked": 20,
-      "pages_ranked": 59,
+      "pages_checked": 18,
+      "pages_ranked": 65,
       "discovery_method": "robots/sitemap + homepage/internal links + site-restricted search + relevance/recency ranking",
       "fetch_status": "OK"
     },
