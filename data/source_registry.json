@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T00:53:39+00:00",
+  "generated_at": "2026-11-27T01:13:11+00:00",
   "discovery_mode": "adaptive keywords + robots/sitemap + homepage/internal links + site-restricted search + relevance/recency validation",
   "sources": [
     {
@@ -14,8 +14,8 @@
       "keyword_hits": [
         "karhutla"
       ],
-      "pages_checked": 0,
-      "pages_ranked": 0,
+      "pages_checked": 80,
+      "pages_ranked": 4,
       "discovery_method": "safety reference fallback",
       "fetch_status": "UNAVAILABLE"
     },
@@ -34,7 +34,7 @@
         "el niño"
       ],
       "pages_checked": 18,
-      "pages_ranked": 65,
+      "pages_ranked": 55,
       "discovery_method": "robots/sitemap + homepage/internal links + site-restricted search + relevance/recency ranking",
       "fetch_status": "OK"
     },
